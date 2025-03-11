@@ -117,7 +117,7 @@
 
 #vomnibar li .vomnibarTopHalf {
   display: flex;
-  flex: 0 0 67%;
+  flex: 0 0 100%;
   align-items: center;
   margin-right: 16px;
 }
@@ -128,7 +128,7 @@
 
 #vomnibar li .vomnibarSource.vomnibarNoInsertText,
 #vomnibar li .vomnibarSource.vomnibarInsertText {
-  flex: 0 0 33%;
+  display: none;
 }
 
 #vomnibar li .vomnibarSource,
